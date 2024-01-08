@@ -1,0 +1,86 @@
+body {
+    background-color: #0CC696;
+    background-image: url(/img/412427761_371397828939862_5001303538164152451_n.webp);
+    /* background-position-x: 500px; */
+    background-position-y: -60px;
+    background-attachment: fixed;
+}
+
+.maindiv {
+    background-color: #1AAD87;
+    align-content: center;
+    width: fit-content;
+    margin: auto;
+    border-style: solid;
+    border-radius: 100px;
+    background-image: url(./img/divnackground.jpg);
+    background-attachment: fixed;
+    border-image: url(./img/divnackground.jpg);
+    opacity: 40%;
+    background-size: contain;
+    width: fit-content;
+    height: 1000px;
+
+
+}
+
+header {
+    font-size: 50px;
+    margin: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.email {
+    font-size: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.password {
+    text-align: center;
+    padding-right: 23px;
+    font-size: 0px;
+    padding-left: 25px;
+
+}
+
+.loginbtn {
+    margin: auto;
+    /* margin-bottom: ; */
+    margin-left: 4%;
+    margin-top: 20px;
+    background-image: url(/img/divnackground.jpg);
+
+
+}
+
+.mail {
+
+    border-color: #1F9AE1;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.pass {
+    border-color: #1F9AE1;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.myproject {
+    color: #018ee6;
+    text-align: center;
+    border-color: #1F9AE1;
+    border-style: solid;
+    font-weight: bold;
+
+}
