@@ -6,6 +6,7 @@ body {
     background-position-y: auto;
     background-attachment: fixed;
     background-size: auto;
+    width: max-content;
 }
 
 .maindiv {
