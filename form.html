@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="descreption" content="Form to contact us">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <form action="" method="post">
+        <div>
+            <label>User name *</label>
+            <input type="text" required placeholder="User name" name="user name">
+        </div>
+        <br>
+        <div>
+            <label>Password * </label>
+            <input type="password" required placeholder="password" name="password" minlength="8">
+        </div>
+        <br>
+        <hr>
+        <div>
+            <div>
+                <input id="Windows" type="checkbox" name="os" value="Windows" checked>
+                <label for="Windows">Windows</label>
+            </div>
+            <div>
+                <input id="mac" type="checkbox" name="os" value="mac">
+                <label for="mac">mac</label>
+            </div>
+            <div>
+                <input id="linux" type="checkbox" name="os" value="linux">
+                <label for="linux">linux</label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <input id="Windows1" type="radio" name="os" value="Windows" checked>
+            <label for="Windows1">Windows</label>
+        </div>
+        <div>
+            <input id="mac1" type="radio" name="os" value="mac">
+            <label for="mac1">mac</label>
+        </div>
+        <div>
+            <input id="linux1" type="radio" name="os" value="linux">
+            <label for="linux1">linux</label>
+        </div>
+        <hr>
+        <div>
+            <label for="select">select the frame work</label>
+            <select id="select" name="select">
+                <option selected>Select</option>
+                <optgroup label="Select"></optgroup>
+                <option value="Spring">Spring</option>
+                <option value="Node.js">Node.js</option>
+                <option value="Mongo.db">Mongo.db</option>
+            </select>
+            <hr>
+            <textarea name="Subject" cols="30" rows="10" placeholder="Project details"></textarea>
+            <hr>
+            <div>
+                <label for="file">upload imaginry project</label>
+                <input type="file">
+
+            </div>
+            <hr>
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+        <iframe src="https://elzero.org/" width="800" height="500"></iframe>
+    </form>
+
+</body>
+
+</html>
